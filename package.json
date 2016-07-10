@@ -1,6 +1,6 @@
 {
     "name": "ng-inject-loader",
-    "version": "0.0.0",
+    "version": "0.0.2",
     "description": "A webpack loader that turns CommonJS modules into AngularJS injectable functions",
     "main": "index.js",
     "author": "Martin Atkins <mart@degeneration.co.uk>",
