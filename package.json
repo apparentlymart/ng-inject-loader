@@ -1,0 +1,29 @@
+{
+    "name": "ng-inject-loader",
+    "version": "0.0.0",
+    "description": "A webpack loader that turns CommonJS modules into AngularJS injectable functions",
+    "main": "index.js",
+    "author": "Martin Atkins <mart@degeneration.co.uk>",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:apparentlymart/ng-inject-loader.git"
+    },
+    "license": "MIT",
+    "keywords": [
+        "webpack",
+        "webpack-loader",
+        "angular"
+    ],
+    "dependencies": {
+        "loader-utils": "0.2.15",
+        "source-map": "0.5.6"
+    },
+    "devDependencies": {
+        "nodeunit": "",
+        "jshint": ""
+    },
+    "scripts": {
+        "test": "nodeunit tests/*.js",
+        "lint": "jshint index.js wrapper.js"
+    }
+}
