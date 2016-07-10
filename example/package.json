@@ -1,0 +1,17 @@
+{
+  "name": "ng-inject-loader-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "devDependencies": {
+    "angular": "~1.5.0",
+    "html-webpack-plugin": "^2.22.0",
+    "ng-anon-module": "0.0.1",
+    "ng-inject-loader": "../",
+    "webpack": "~1.13.1",
+    "webpack-dev-server": "~1.14.1"
+  }
+}
